@@ -1,5 +1,5 @@
 {
-  "name": "relevel-outlook-backend-template-nodejs",
+  "name": "relevel-pharmeasy-backend-template-nodejs",
   "version": "1.0.0",
   "description": "Relvel backend assignment using Express",
   "main": "src/server.js",
