@@ -26,6 +26,14 @@ const cancelOrder = (req, res) => {
     //createUser api logic here
 };
 
+const purchaseMembership = (req, res) => {
+    //purchaseMembership api logic here
+};
+
+const cancelMembership = (req, res) => {
+    //cancelMembership api logic here
+};
+
 const UserController = {
     createUser,
     addMedicineToCart,
@@ -33,7 +41,9 @@ const UserController = {
     viewCart,
     placeOrder,
     viewOrders,
-    cancelOrder
+    cancelOrder,
+    purchaseMembership,
+    cancelMembership
 };
 
 module.exports = UserController;

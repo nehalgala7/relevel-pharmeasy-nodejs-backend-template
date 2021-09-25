@@ -14,11 +14,17 @@ const MapSymptomToMedicine = (req, res) => {
     //MapSymptomToMedicine api logic here
 };
 
+const fetchMedicinesForSymptom = (req, res) => {
+    //Given a symptom, return all the medicines for that symptom
+};
+
+
 const MedicinesController = {
     addMedicine,
     updateMedicine,
     MapSymptomToMedicine,
-    searchMedicines
+    searchMedicines,
+    fetchMedicinesForSymptom
 };
 
 module.exports = MedicinesController;
